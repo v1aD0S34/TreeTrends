@@ -201,21 +201,21 @@
     {
       "BeforeTag_StructAlpha": "AO.",
       "AfterTag_StructAlpha": "AO_FromHMI.",
-      "AfterTag_SignalAlpha": ["BTNforceOn","BTNworkOn","manualTarget"],
+      "AfterTag_SignalAlpha": ["BTNforceOn","BTNworkOn","manualTarget","fault_common"],
 
       "BeforeTag_StructRegul": "AO_FromHMI.",
       "BeforeTag_SignalRegul": [""],
-      "AfterTag_SignalRegul":["BTNforceOn","BTNworkOn","manualTarget"]
+      "AfterTag_SignalRegul":["BTNforceOn","BTNworkOn","manualTarget","fault_common"]
     },
 
     {
       "BeforeTag_StructAlpha": "AO.",
       "AfterTag_StructAlpha": "AO_ToHMI.",
-      "AfterTag_SignalAlpha": ["forsPermit","forsEnable","PV","permit","DRV"],
+      "AfterTag_SignalAlpha": ["forsPermit","forsEnable","PV","permit","DRV","fault_common"],
 
       "BeforeTag_StructRegul": "AO_ToHMI.",
       "BeforeTag_SignalRegul": [""],
-      "AfterTag_SignalRegul": ["forsPermit","forsEnable","PV","permit","DRV"]
+      "AfterTag_SignalRegul": ["forsPermit","forsEnable","PV","permit","DRV","fault_common"]
     },
 
     {
