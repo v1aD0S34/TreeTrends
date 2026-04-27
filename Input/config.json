@@ -266,11 +266,11 @@
     {
       "BeforeTag_StructAlpha": "AM.",
       "AfterTag_StructAlpha": "AM_FromHMI.",
-      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff"],
+      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
 
       "BeforeTag_StructRegul": "AM_FromHMI.",
       "BeforeTag_SignalRegul": [""],
-      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff"]
+      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"]
     },
 
     {
@@ -301,11 +301,11 @@
     {
       "BeforeTag_StructAlpha": "AnAM.",
       "AfterTag_StructAlpha": "AM_FromHMI.",
-      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff"],
+      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
 
       "BeforeTag_StructRegul": "AM_FromHMI.",
       "BeforeTag_SignalRegul": [""],
-      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff"]
+      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"]
     },
 
     {
@@ -537,6 +537,16 @@
       "AfterTag_SignalAlpha": ["AS"],
 
       "BeforeTag_StructRegul": "AS.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": [""]
+    },
+
+      {
+      "BeforeTag_StructAlpha": "APS.PPZ.",
+      "AfterTag_StructAlpha": "PPZ_Alarm_AI.",
+      "AfterTag_SignalAlpha": ["Result_PPZ"],
+
+      "BeforeTag_StructRegul": "Result_PPZ.",
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": [""]
     },
