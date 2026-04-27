@@ -521,6 +521,20 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": [""]
     },
+
+      {
+      "BeforeTag_StructAlpha": "APS.PPZ.",
+      "AfterTag_StructAlpha": "PPZ_Alarm_Calc_AI.",
+      "AfterTag_SignalAlpha": ["Result_PPZ"],
+
+      "BeforeTag_StructRegul": "Result_PPZ.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": [""]
+    },
+
+
+
+
  {
       "BeforeTag_StructAlpha": "APS.PPZ.",
       "AfterTag_StructAlpha": "PPZ_Alarm_LG.",
