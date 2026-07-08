@@ -264,6 +264,30 @@
     },
 
     {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AM_ToHMI.",
+      "AfterTag_SignalAlpha": ["iOn","iOff","qOn","qOff","qHoldOn","iCon",
+        "iCoff","modeManual","disableManual","prmBtnOn","prmBtnOff","fNotOn","fNotOff","fNotStart","fSelfOn",
+        "fSelfOff","fCon","fCoff","fFB","dist","fCommon","disableCon","disableCoff","state","faults"],
+
+      "BeforeTag_StructRegul": "IM_ToHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["iOn","iOff","qOn","qOff","qHoldOn","iCon",
+        "iCoff","modeManual","disableManual","prmBtnOn","prmBtnOff","fNotOn","fNotOff","fNotStart","fSelfOn",
+        "fSelfOff","fCon","fCoff","fFB","dist","fCommon","disableCon","disableCoff","state","faults"]
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
       "BeforeTag_StructAlpha": "AM.",
       "AfterTag_StructAlpha": "AM_FromHMI.",
       "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
@@ -274,6 +298,19 @@
     },
 
     {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AM_FromHMI.",
+      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
+
+      "BeforeTag_StructRegul": "IM_FromHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"]
+    },
+
+
+
+
+    {
       "BeforeTag_StructAlpha": "AM.",
       "AfterTag_StructAlpha": "AM_Alg.",
       "AfterTag_SignalAlpha": ["AlgOn","AlgOff"],
@@ -282,6 +319,20 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["AlgOn","AlgOff"]
     },
+
+
+    {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AM_Alg.",
+      "AfterTag_SignalAlpha": ["AlgOn","AlgOff"],
+
+      "BeforeTag_StructRegul": "IM_Alg.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["AlgOn","AlgOff"]
+    },
+
+
+
 
 
     {
@@ -299,6 +350,26 @@
     },
 
     {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AM_ToHMI.",
+      "AfterTag_SignalAlpha": ["iOn","iOff","qOn","qOff","qHoldOn","iCon",
+        "iCoff","modeManual","disableManual","prmBtnOn","prmBtnOff","fNotOn","fNotOff","fNotStart","fSelfOn",
+        "fSelfOff","fCon","fCoff","fFB","dist","fCommon","disableCon","disableCoff","state","faults"],
+
+      "BeforeTag_StructRegul": "IM_ToHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["iOn","iOff","qOn","qOff","qHoldOn","iCon",
+        "iCoff","modeManual","disableManual","prmBtnOn","prmBtnOff","fNotOn","fNotOff","fNotStart","fSelfOn",
+        "fSelfOff","fCon","fCoff","fFB","dist","fCommon","disableCon","disableCoff","state","faults"]
+    },
+
+
+
+
+
+
+
+    {
       "BeforeTag_StructAlpha": "AnAM.",
       "AfterTag_StructAlpha": "AM_FromHMI.",
       "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
@@ -307,6 +378,21 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"]
     },
+
+    {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AM_FromHMI.",
+      "AfterTag_SignalAlpha": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"],
+
+      "BeforeTag_StructRegul": "IM_FromHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["btnOn","btnOff","btnManualOn","btnManualOff","btnStop","btnOn_IM"]
+    },
+
+
+
+
+
 
     {
       "BeforeTag_StructAlpha": "AnAM.",
@@ -318,6 +404,20 @@
       "AfterTag_SignalRegul": ["AlgOn","AlgOff"]
     },
 
+    {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AM_Alg.",
+      "AfterTag_SignalAlpha": ["AlgOn","AlgOff"],
+
+      "BeforeTag_StructRegul": "IM_Alg.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["AlgOn","AlgOff"]
+    },
+
+
+
+
+
    {
       "BeforeTag_StructAlpha": "AnAM.",
       "AfterTag_StructAlpha": "AnAM_Alg.",
@@ -328,6 +428,20 @@
       "AfterTag_SignalRegul": ["pos"]
     },
 
+   {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AnAM_Alg.",
+      "AfterTag_SignalAlpha": ["pos"],
+
+      "BeforeTag_StructRegul": "IM_Alg.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["pos"]
+    },
+
+
+
+
+
     {
       "BeforeTag_StructAlpha": "AnAM.",
       "AfterTag_StructAlpha": "AnAM_ToHMI.",
@@ -337,6 +451,19 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"]
     },
+     {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AnAM_ToHMI.",
+      "AfterTag_SignalAlpha": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"],
+
+      "BeforeTag_StructRegul": "IM_ToHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"]
+    },
+
+
+
+
    {
       "BeforeTag_StructAlpha": "AnAM.",
       "AfterTag_StructAlpha": "AnAM_FromHMI.",
@@ -346,6 +473,18 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["manualPos"]
     },
+   {
+      "BeforeTag_StructAlpha": "AnIM.",
+      "AfterTag_StructAlpha": "AnAM_FromHMI.",
+      "AfterTag_SignalAlpha": ["manualPos"],
+
+      "BeforeTag_StructRegul": "IM_FromHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["manualPos"]
+    },
+
+
+
 
     {
       "BeforeTag_StructAlpha": "AM.",
@@ -356,6 +495,20 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["pos"]
     },
+     {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AnAM_Alg.",
+      "AfterTag_SignalAlpha": ["pos"],
+
+      "BeforeTag_StructRegul": "AnAI_Alg.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["pos"]
+    },
+
+
+
+
+
 
     {
       "BeforeTag_StructAlpha": "AM.",
@@ -366,6 +519,19 @@
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"]
     },
+      {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AnAM_ToHMI.",
+      "AfterTag_SignalAlpha": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"],
+
+      "BeforeTag_StructRegul": "AnIM_ToHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["iPos","iCpos","qPos","manualPos","dCpos","dPos"]
+    },
+
+
+
+
 
     {
       "BeforeTag_StructAlpha": "AM.",
@@ -373,6 +539,17 @@
       "AfterTag_SignalAlpha": ["manualPos"],
 
       "BeforeTag_StructRegul": "AnAM_FromHMI.",
+      "BeforeTag_SignalRegul": [""],
+      "AfterTag_SignalRegul": ["manualPos"]
+    },
+
+
+        {
+      "BeforeTag_StructAlpha": "IM.",
+      "AfterTag_StructAlpha": "AnAM_FromHMI.",
+      "AfterTag_SignalAlpha": ["manualPos"],
+
+      "BeforeTag_StructRegul": "AnIM_FromHMI.",
       "BeforeTag_SignalRegul": [""],
       "AfterTag_SignalRegul": ["manualPos"]
     },
