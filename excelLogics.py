@@ -47,6 +47,15 @@ def process_excel_file(excel_name_opc, key_name):
 
     for row_number in range(2, last_row + 1):
         a_value = sheet.cell(row=row_number, column=1).value
+
+        d_value = sheet.cell(row=row_number, column=4).value
+
+        if d_value is not None:
+            d_value = str(d_value).strip().lower()
+
+        if d_value not in (None, "не привязан"):
+            continue
+
         if a_value:
             new_value, massIndex = process_tag_value(a_value, config, prefix_Alpha, prefix_Regul)
             sheet.cell(row=row_number, column=7, value=new_value)
